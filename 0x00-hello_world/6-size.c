@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main- entery point
  *
  * Description: program that prints the size of various types on the computer
