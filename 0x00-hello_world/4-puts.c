@@ -1,9 +1,11 @@
 #include <stdio.h>
 /**
- * main : entry point
- * description : print string using puts 
- * return : 0
-*/
+ * main - entry point
+ *
+ * Description: print string using puts function
+ *
+ * Return:  equal 0 mean success
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
