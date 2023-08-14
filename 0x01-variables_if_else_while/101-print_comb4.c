@@ -18,9 +18,9 @@ int main(void)
 			{
 				if (x != y && x != z && y != z)
 				{
-					putchar(z);
-					putchar(y);
-					putchar(x);
+					putchar(z + '0');
+					putchar(y + '0');
+					putchar(x + '0');
 					putchar(',');
 					putchar(' ');
 				}
