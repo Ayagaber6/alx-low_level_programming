@@ -18,11 +18,15 @@ int main(void)
 			{
 				if (x != y && x != z && y != z)
 				{
-					putchar(z + '0');
-					putchar(y + '0');
 					putchar(x + '0');
+					putchar(y + '0');
+					putchar(z + '0');
 					putchar(',');
 					putchar(' ');
+				}
+				else
+				{
+					break;
 				}
 			}
 		}
