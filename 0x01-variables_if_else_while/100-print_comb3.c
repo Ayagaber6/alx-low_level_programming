@@ -24,6 +24,8 @@ int main(void)
 				putchar (y + '0');
 		}
 	}
+		putchar (',');
+		putchar (' ');
 	}
 	return (0);
 }
