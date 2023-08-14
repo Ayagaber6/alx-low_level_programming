@@ -18,13 +18,11 @@ int main(void)
 			{
 				putchar (y + '0');
 				putchar (x + '0');
-				/*putchar(',');
-				putchar(' ');*/
+				putchar(',');
+				putchar(' ');
 			}
 			else
 			{
-				putchar(',');
-				putchar(' ');
 				break;
 			}
 		}
