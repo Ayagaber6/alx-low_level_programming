@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (y = 0 ; y <= 9 ; y++)
 		{
-			if (x == y)
+			if (x == y || y == x)
 			{
 				continue;
 			}
@@ -22,10 +22,10 @@ int main(void)
 			{
 				putchar (x + '0');
 				putchar (y + '0');
+			}
+			putchar(',');
+			putchar(' ');
 		}
-	}
-		putchar (',');
-		putchar (' ');
 	}
 	return (0);
 }
