@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main -entry point
+/**
+ * main- entry point
  *
  * Description: Positive anything is better than negative nothing
  *
