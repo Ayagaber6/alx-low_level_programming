@@ -8,14 +8,17 @@
  */
 int main(void)
 {
-	for(int x = 'A'; x <= 'Z'; x++)
+	int x, y;
+
+	for(x = 'a'; x <= 'z'; x++)
     {
         putchar(x);
     }
-	for(int x = 'A'; x <= 'Z'; x++)
+	putchar('\n');
+	for(y = 'A'; x <= 'Z'; x++)
     {
-        x = tolower(x);
         putchar(x);
     }
+	putchar('\n');
 	return (0);
 }
