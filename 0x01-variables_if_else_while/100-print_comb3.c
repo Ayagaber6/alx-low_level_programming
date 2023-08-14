@@ -18,9 +18,9 @@ int main(void)
 			{
 				putchar (x + '0');
 				putchar (y + '0');
+				putchar(',');
+				putchar(' ');
 			}
-			putchar(',');
-			putchar(' ');
 			else
 			{
 				break;
