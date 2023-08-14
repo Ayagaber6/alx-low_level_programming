@@ -10,13 +10,13 @@ int main(void)
 {
 	int x, y, z;
 
-	for (x = 0 ; x <= 9 ; x ++)
+	for (x = 0 ; x <= 9 ; x++)
 	{
-		for (y = 0 ; y <= 9 ; y ++)
+		for (y = 0 ; y <= 9 ; y++)
 		{
 			for (z = 0 ; z <= 9 ; z++)
 			{
-				if ( x != y && x != z && y != z )
+				if (x != y && x != z && y != z)
 				{
 					putchar(z);
 					putchar(y);
