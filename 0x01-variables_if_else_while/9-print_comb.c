@@ -10,7 +10,7 @@
 int main(void)
 {
 	char n;
-	char st = , ;
+	char st[] = ", ";
 
 	for (n = 0 ; n < 10 ; n++)
 	{
