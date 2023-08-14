@@ -2,7 +2,7 @@
 /**
  * main- entry point
  *
- * Description: alphabet in lowercase
+ * Description: alphabet in lowercase except q and e
  *
  * Return: 0 that mean success
  */
