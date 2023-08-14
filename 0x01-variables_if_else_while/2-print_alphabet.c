@@ -6,9 +6,9 @@
  *
  * Return: 0 that mean success
  */
-int main(void)
+char main(void)
 {
-	int x;
+	char x;
 
 	for(x = 'A'; x <= 'Z'; x++)
     {
