@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * main- entry point
  *
@@ -9,12 +10,12 @@
 int main(void)
 {
 	char n;
+	char st=", ";
 
 	for (n = 0 ; n < 10 ; n++)
 	{
 		putchar(n);
-		putchar(",");
-		putchar(" ");
+		putchar(st);
 	}
 	putchar ('\n');
 	return (0);
