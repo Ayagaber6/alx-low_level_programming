@@ -18,7 +18,8 @@ int main(void)
 		}
 		else 
 		{
-			printf("%d , i\n");
+			printf("%d \n", i);
 		}
+	}
 	return (0);
 }
