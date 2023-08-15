@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <main.h>
 /**
  * main- entry point
  *
- * Description: program that prints _putchar
+ * Dscription: program that prints _putchar
  *
  * Return: 0 success
  */
