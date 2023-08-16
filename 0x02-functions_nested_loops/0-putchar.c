@@ -1,14 +1,13 @@
-#include <stdio.h>
-#include <main.h>
+#include <unistd.h>
+#include "main.h"
 /**
- * main- entry point
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Dscription: program that prints _putchar
- *
- * Return: 0 success
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+int _putchar(char c)
 {
-	printf("_putchar\n");
-	return (0);
+	return (write(1, &c, 1));
 }
