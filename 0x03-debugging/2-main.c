@@ -2,6 +2,7 @@
 #include "main.h"
 /**
 * main - prints the largest of 3 integers
+* Description: find largest number
 * Return: 0
 */
 
