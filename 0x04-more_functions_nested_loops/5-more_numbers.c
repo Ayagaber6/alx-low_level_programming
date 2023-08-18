@@ -16,7 +16,8 @@ void more_numbers/*print numbers 10 times*/(void)
 		{
 			if (n > 9)
 			{
-				_putchar('1' + n % 10 + '0');
+				_putchar(1);
+				_putchar(n % 10 + '0');
 			}
 			_putchar(n + 48);
 		}
