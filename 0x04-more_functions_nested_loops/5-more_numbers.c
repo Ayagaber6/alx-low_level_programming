@@ -17,8 +17,8 @@ void more_numbers/*print numbers 10 times*/(void)
 			}
 			else
 			{
-			_putchar(n + 48);
+				_putchar(n + 48);
 			}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
