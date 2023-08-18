@@ -32,6 +32,6 @@ int fizz_buzz/*print fizz if multi 3 and buzz if multi 5 */(void)
 			printf(" ");
 		}
 	}
-		_putchar('\n');
+		_printf("\n");
 		return (0);
 }
