@@ -6,7 +6,7 @@
  * 
  * Return: always 0
  */
-void print_most_numbers(int n)
+int print_most_numbers(void)
 {
 	int n;
 
