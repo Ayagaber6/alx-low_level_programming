@@ -3,7 +3,6 @@
  * main- entry point
  * Description: draw diagonal
  * @n: input number
- * Return: void
  */
 void print_diagonal/*draw diagonal*/(int n)
 {
