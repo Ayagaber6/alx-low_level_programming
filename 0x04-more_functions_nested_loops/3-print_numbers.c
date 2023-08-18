@@ -4,8 +4,10 @@
  * main- entery ponit
  *
  * Description: print num from 1 to 9
+ *
+ * Return: void
  */
-void print_numbers(void)
+void print_numbers/*function print num*/(void)
 {
 	int n;
 
