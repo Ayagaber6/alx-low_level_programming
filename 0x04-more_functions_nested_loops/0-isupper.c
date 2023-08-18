@@ -3,10 +3,11 @@
  * main- entry point
  *
  * Description: upeercase or not
+ * @c: input character
  *
  * Return: 1 if upper else 0
  */
-int _isupper/*check char is upper or lower*/(int c/*c: input character*/)
+int _isupper/*check char is upper or lower*/(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
