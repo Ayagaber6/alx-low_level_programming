@@ -19,7 +19,7 @@ void print_diagonal/*draw diagonal*/(int n)
 			for (j = 0 ; j <= i ; i++)
 			{
 			_putchar(' ');
-	i		}
+			}
 		_putchar('\\');
 		_putchar('\n');
 		}
