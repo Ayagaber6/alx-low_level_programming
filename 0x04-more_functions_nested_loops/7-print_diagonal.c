@@ -27,7 +27,7 @@ void print_diagonal/*draw diagonal*/(int n)
 					_putchar(' ');
 				}
 			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
