@@ -1,7 +1,5 @@
 #include "main.h"
 /**
- * main- enrty point
- *
  * Description: print to num 9 exept 2 and 4
  */
 void print_most_numbers(void)
