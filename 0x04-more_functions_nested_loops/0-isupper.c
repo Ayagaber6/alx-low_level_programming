@@ -6,7 +6,7 @@
  *
  * Return: 1 if upper else 0
  */
-int _isupper/*check uppercase or lowercase*/(int c/*input character*/)
+int _isupper/*check char is upper or lower*/(int c/*c: input character*/)
 {
 	if (c >= 65 && c <= 90)
 	{
