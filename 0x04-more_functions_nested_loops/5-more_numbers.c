@@ -6,19 +6,18 @@
  */
 void more_numbers/*print numbers 10 times*/(void)
 {
-	int i, j;
+	int i;
 
-	for (i = 0 ; i <= 9 ; i++)
+	for (i = 0 ; i <= 14 ; i++)
 	{
-		for (j = 0 ; j <= 14 ; j++)
-		{
-			if (j > 9)
+			if (i > 9)
 			{
-				_putchar(j / 10 + '0');
+				_putchar('1' + j % 10 + '0');
 			}
-			_putchar(j % 10 + '0');
-		}
-		_putchar(n + 48);
+			else
+			{
+			_putchar(n + 48);
+			}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
