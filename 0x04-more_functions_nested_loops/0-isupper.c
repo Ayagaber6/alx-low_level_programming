@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * main - entry point
  *
- *Description: upeercase or not
+ * Description: upeercase or not
  *
  * Return: 1 if upper else 0
  */
