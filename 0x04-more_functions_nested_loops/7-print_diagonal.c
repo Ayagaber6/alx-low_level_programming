@@ -12,13 +12,15 @@ void print_diagonal/*draw diagonal*/(int n)
 	}
 	else
 	{
-		int i;
-
+		int i, j;
+	for (j = 1 ; j <= n ; j++)
+	{
 		for (i = 1 ; i <= n ; i++)
 		{
 			_putchar(' ');
 		}
 		_putchar('\\');
 		_putchar('\n');
+	}
 	}
 }
