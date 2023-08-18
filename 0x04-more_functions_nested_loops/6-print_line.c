@@ -4,11 +4,10 @@
  *
  * Description: print straight line
  * @n: input number
- * @i more_numbers - counter
  */
 void print_line/*print line using _*/(int n)
 {
-	int i, n;
+	int i;
 
 	if (n <= 0)
 	{
@@ -19,7 +18,7 @@ void print_line/*print line using _*/(int n)
 		for (i = 1 ; i <= n ; i++)
 		{
 			_putchar('_');
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
