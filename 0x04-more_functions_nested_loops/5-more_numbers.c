@@ -6,8 +6,10 @@
  */
 void more_numbers/*print numbers 10 times*/(void)
 {
-	int n;
-
+	int n, i;
+	
+	for (i = 0 ; i <= 10 ; i++)
+	{
 	for (n = 0 ; n <= 14 ; n++)
 	{
 			if (n > 9)
@@ -21,4 +23,5 @@ void more_numbers/*print numbers 10 times*/(void)
 			}
 	}
 	_putchar('\n');
+	}
 }
