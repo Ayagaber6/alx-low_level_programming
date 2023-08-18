@@ -6,7 +6,7 @@
  * Description: fizz buzz program
  * @n: input number
  */
-void fizz_buzz/*print fizz if multi 3 and buzz if multi 5 */(int n)
+int fizz_buzz/*print fizz if multi 3 and buzz if multi 5 */(int n)
 {
 	for (n = 1 ; n <= 100 ; n++)
 	{
