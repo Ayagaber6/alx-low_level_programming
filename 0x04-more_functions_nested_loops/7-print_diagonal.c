@@ -20,7 +20,7 @@ void print_diagonal/*draw diagonal*/(int n)
 			{
 				if (j == i)
 				{
-					_putchar(' ');
+					_putchar('\\');
 				}
 				else if (j < i)
 				{
