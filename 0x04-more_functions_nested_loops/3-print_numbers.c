@@ -4,8 +4,6 @@
  * main- entery ponit
  *
  * Description: print num from 1 to 9
- *
- * Return: always 0
  */
 void print_numbers(void)
 {
