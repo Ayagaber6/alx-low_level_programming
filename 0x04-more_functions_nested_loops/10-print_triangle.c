@@ -18,12 +18,18 @@ void print_triangle/*print shape*/(int size)
 
 		for (i = 1 ; i <= size - 1 ; i++)
 		{
-			_putchar(' ');
-			for (j = 1 ; j <= size ; j++)
+			for (j = 1 ;  j <= size ; j++)
 			{
-				_putchar('#');
-				_putchar('\n');
+				if ((i + j) <= size)
+				{
+					_putchar(' ');
+				}
+				else
+				{
+					_putchar('#');
+				}
 			}
+			_putchar('\n');
 		}
 	}
 }
