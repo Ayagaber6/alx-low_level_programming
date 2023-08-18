@@ -5,8 +5,6 @@
  * Description: print num from 0 to 14 - 10 times
  * @i more_numbers - counter
  * @n more_number - input number
- *
- * Return: always 0
  */
 void more_numbers/*print numbers 10 times*/(void)
 {
