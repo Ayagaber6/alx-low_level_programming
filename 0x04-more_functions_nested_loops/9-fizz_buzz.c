@@ -5,7 +5,7 @@
  * Description: fizz buzz program
  * Return: always 0
  */
-int fizz_buzz/*print fizz if multi 3 and buzz if multi 5 */(void)
+int main/*print fizz if multi 3 and buzz if multi 5 */(void)
 {
 	int n;
 
