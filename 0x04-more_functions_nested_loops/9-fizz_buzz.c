@@ -4,26 +4,30 @@
  * main-enrty point
  *
  * Description: fizz buzz program
- * @n: input number
  */
-int fizz_buzz/*print fizz if multi 3 and buzz if multi 5 */(int n)
+int fizz_buzz/*print fizz if multi 3 and buzz if multi 5 */(void)
 {
+	int n;
+	i
 	for (n = 1 ; n <= 100 ; n++)
 	{
-		if (n % 3)
+		if (n % 3 == 0) && (n % 5 ==0)
+		{
+			printf("FizzBuzz");
+		}
+		else if (n % 3 == 0)
 		{
 			printf("Fizz");
-			_putchar(' ');
 		}
-		else if (n % 5)
+		else if (n % 5 == 0)
 		{
 			printf("Buzz");
-			_putchar(' ');
 		}
 		else
 		{
 			printf("%d", n);
-			_putchar(' ');
+		}
+		printf (" ");
 	}
 		_putchar('\n');
 }
