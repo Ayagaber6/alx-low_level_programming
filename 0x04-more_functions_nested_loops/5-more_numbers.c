@@ -24,5 +24,4 @@ void more_numbers/*print numbers 10 times*/(void)
 		}
 		_putchar('\n');
 	}
-	return (0);
 }
