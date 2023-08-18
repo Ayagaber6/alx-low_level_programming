@@ -15,7 +15,10 @@ void print_line/*print line using _*/(int n)
 	}
 	else
 	{
-		_putchar((n + 48) * '_');
+		for (i = 1 ; i <= n ; i++)
+		{
+			_putchar('_');
+		}
 		_putchar('\n');
 	}
 	return (0);
