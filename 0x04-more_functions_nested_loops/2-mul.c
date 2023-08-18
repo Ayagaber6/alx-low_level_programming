@@ -5,7 +5,7 @@
  *
  * Return: result multipli 2 num
  */
-int mul(int a, int b)
+int mul/*multiple 2 numbers*/(int a, int b)
 {
 	return (a * b);
 }

@@ -2,7 +2,7 @@
 /**
  * Description: print to num 9 exept 2 and 4
  */
-void print_most_numbers(void)
+void print_most_numbers/*print number exept 2 numbers*/(void)
 {
 	int n;
 

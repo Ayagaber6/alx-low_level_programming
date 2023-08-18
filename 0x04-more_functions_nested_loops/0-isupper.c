@@ -6,7 +6,7 @@
  *
  * Return: 1 if upper else 0
  */
-int _isupper(int c)
+int _isupper/*check uppercase or lowercase*/(int c)
 {
 	if (c >= 65 && c <= 90)
 	{

@@ -5,7 +5,7 @@
  *
  * Return: 1 if digi else 0
  */
-int _isdigit(int c)
+int _isdigit/*function return digit or alphabet*/(int c)
 {
 	if (c >= 48 && c <= 57)
 	{
