@@ -22,4 +22,5 @@ void print_diagonal/*draw diagonal*/(int n)
 		}
 		_putchar('\n');
 	}
+	return (0);
 }
