@@ -4,7 +4,6 @@
  *
  * Description: print triangle with # character
  * @size: input number
- * Return: always 0
  */
 void print_triangle/*print shape*/(int size)
 {
@@ -16,7 +15,7 @@ void print_triangle/*print shape*/(int size)
 	{
 		int i, j;
 
-		for (i = 1 ; i <= size - 1 ; i++)
+		for (i = 1 ; i <= size ; i++)
 		{
 			for (j = 1 ;  j <= size ; j++)
 			{
@@ -32,5 +31,4 @@ void print_triangle/*print shape*/(int size)
 			_putchar('\n');
 		}
 	}
-	return (0);
 }
