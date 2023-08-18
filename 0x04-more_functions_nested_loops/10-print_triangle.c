@@ -23,7 +23,7 @@ void print_triangle/*print shape*/(int size)
 			{
 				_putchar('#');
 			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
