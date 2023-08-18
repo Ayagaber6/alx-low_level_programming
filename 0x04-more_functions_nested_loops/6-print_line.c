@@ -3,10 +3,9 @@
  * main- entry poiny
  *
  * Description: print straight line
- *
- * Return: always 0
+ * @n: input number
  */
-void print_line(int n)
+void print_line/*print line using _*/(int n)
 {
 	int n;
 
@@ -16,7 +15,7 @@ void print_line(int n)
 	}
 	else
 	{
-		_putchar( 42 + '_');
+		_putchar((n + 48) * '_');
 		_putchar('\n');
 	}
 	return (0);
