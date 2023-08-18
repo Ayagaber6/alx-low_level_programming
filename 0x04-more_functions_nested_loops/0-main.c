@@ -4,6 +4,8 @@
 /**
  * main - check the code.
  *
+ * Description: find uppercase
+ *
  * Return: Always 0.
  */
 int main(void)
