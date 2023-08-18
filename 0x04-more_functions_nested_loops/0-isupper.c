@@ -3,6 +3,8 @@
 /**
  * main - check the code.
  *
+ *Description: upeercase or not
+ *
  * Return: 1 if upper else 0
  */
 int _isupper(int c)
