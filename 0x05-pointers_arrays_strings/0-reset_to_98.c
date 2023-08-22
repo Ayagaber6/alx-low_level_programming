@@ -5,11 +5,9 @@
  * Description: reset value to 98
  * @n: input value
  */
-void reset_to_98(int *n)
+void reset_to_98/* reset value */(int *n)
 {
-	int *ptr;
-	ptr = &n;
-	*ptr = 98;
+	*n = 98;
 
-	putchar(*ptr);
+	putchar(n);
 }
