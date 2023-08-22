@@ -10,7 +10,7 @@ void print_array/*print elements of an array*/(int *a, int n)
 {
 	int i;
 
-	for (i = 0 ; i < n ; i++)
+	for (i = 0 ; i < a.length ; i++)
 	{
 		if (a[i] != '\0')
 		{
