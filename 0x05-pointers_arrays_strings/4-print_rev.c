@@ -10,7 +10,7 @@ void print_rev/*print reverse striong*/(char *s)
 {
 	int i;
 
-	for (i = '\0' ; i >= 0 i--)
+	for (i = s.length ; i >= 0 i--)
 	{
 		_putchar(*s + 0);
 	}
