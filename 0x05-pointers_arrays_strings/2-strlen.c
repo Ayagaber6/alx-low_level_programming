@@ -13,8 +13,7 @@ int _strlen/* length of string*/(char *s)
 	{
 		s++;
 	}
-	do
-	{
+	do {
 		length++;
 	}
 	return (length);
