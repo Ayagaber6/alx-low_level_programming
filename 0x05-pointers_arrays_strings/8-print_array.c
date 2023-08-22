@@ -14,7 +14,7 @@ void print_array/*print elements of an array*/(int *a, int n)
 	{
 		if (a[i] != '\0')
 		{
-			printf("%d, ", a[i];
+			printf("%d, ", a[i]);
 		}
 		else
 		{
