@@ -5,7 +5,7 @@
  * Description: print reverse string
  * @s: input character
  */
-void rev_string(char *s)
+void rev_string/*reverse string*/(char *s)
 {
 	int i, len;
 
