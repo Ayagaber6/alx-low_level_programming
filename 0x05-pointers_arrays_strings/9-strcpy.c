@@ -5,6 +5,7 @@
  * Description: copy data from file to other
  * @dest: pointer
  * @src: pointer
+ * Return: data of file
  */
 char *_strcpy/*copy from file to other*/(char *dest, char *src)
 {
