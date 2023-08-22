@@ -7,7 +7,7 @@
  */
 void puts_half/*print last half of srting*/(char *str)
 {
-	int i, length,  mid, lower, upper;
+	int i, length,  mid, lower;
 
 	length = 0;
 
