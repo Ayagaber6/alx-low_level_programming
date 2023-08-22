@@ -9,12 +9,12 @@
 void print_rev/*print reverse striong*/(char *s)
 {
 	int i, len;
-	len = 0;
-	while(*s != '\0')
-	{
-		len ++;
-		s++;
-	}
+
+	for (len = 0 ; *s != '\0' ; s++)
+        {
+                len++;
+        }
+
 	for (i = len ; i >= 0 i--)
 	{
 		_putchar(*s + 0);
