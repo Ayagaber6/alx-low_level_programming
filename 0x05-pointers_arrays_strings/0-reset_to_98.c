@@ -8,6 +8,4 @@
 void reset_to_98/* reset value */(int *n)
 {
 	*n = 98;
-
-	putchar(*n);
 }
