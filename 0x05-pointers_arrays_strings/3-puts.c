@@ -8,6 +8,11 @@
  */
 void _puts/*print string*/(char *str)
 {
-	_putchar('%s');
+	int i;
+
+	for( i = 0 ; *str != '\0' ; i++)
+	{
+		_putchar(*str + 0);
+	}
 	_putchar('\n');
 }
