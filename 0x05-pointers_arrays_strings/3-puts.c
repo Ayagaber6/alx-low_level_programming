@@ -4,7 +4,7 @@
  *
  * Description: print string
  * @str: input character
- * Return: 0 success
+ * Return: string
  */
 void _puts/*print string*/(char *str)
 {
