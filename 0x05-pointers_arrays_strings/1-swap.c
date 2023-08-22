@@ -8,11 +8,9 @@
  */
 void swap_int/*swap 2 integer value*/ (int *a, int *b)
 {
-	putchar("a= %d, b= %d", a, b);
-	putchar('\n');
-	int x, y;
+	int x;
 
 	x = *a;
-	y = *b;
-	putchar("a= %d, b= %d", x, y);
+	*a = *b;
+	*b = x;
 }
