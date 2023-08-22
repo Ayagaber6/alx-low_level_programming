@@ -8,17 +8,15 @@
  */
 void print_array/*print elements of an array*/(int *a, int n)
 {
-	int i;
-
-	for (i = 0 ; i < a.length ; i++)
+	for (n = 0 ; n < *a.length ; i++)
 	{
-		if (a[i] != '\0')
+		if (*a[n] != '\0')
 		{
-			printf("%d, ", a[i];
+			printf("%d, ", *a[n];
 		}
 		else
 		{
-			printf("%d", a[i]);
+			printf("%d", *a[n]);
 		}
 	}
 	_putchar('\n');
