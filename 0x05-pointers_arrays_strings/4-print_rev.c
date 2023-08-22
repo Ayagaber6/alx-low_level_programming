@@ -15,9 +15,9 @@ void print_rev/*print reverse striong*/(char *s)
 		len++;
 	}
 
-	for (i = len ; i >= 0 ; i--)
+	for (i = len ; i <= 0 i--)
 	{
-		_putchar(*s);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
