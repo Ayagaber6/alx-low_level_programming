@@ -7,14 +7,9 @@
  */
 void rev_string/*print reverse string*/(char *s)
 {
-	int i, length;
+	int i;
 
-	length = 0;
-	for (i = 0 ; s[i] != '\0' ; i++)
-	{
-		length++;
-	}
-	for (i = (length - 1) ; i >= 0 ; i--)
+	for (i = 9 ; i >= 0 ; i--)
 	{
 		_putchar(s[i]);
 	}
