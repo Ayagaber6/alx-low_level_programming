@@ -8,12 +8,16 @@
  */
 void print_rev/*print reverse striong*/(char *s)
 {
-	int i;
+	int length;
 
-	for (i = 0 ; *s != '\0' ; i++)
-		*s++
-	while (i--)
+        for (length = 0 ; *s != '\0' ; s++)
+        {
+                length++;
+        }
+	for (i = (length - 1) ; i >= 0 ; i--)
+	{
 		_putchar(s[i]);
+	}
 
 	_putchar('\n');
 }
