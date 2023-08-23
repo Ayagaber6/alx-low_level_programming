@@ -7,18 +7,18 @@
  */
 void puts_half/*print last half of srting*/(char *str)
 {
-	int i, length,  mid, lower;
+	int i, length, mid;
 
 	length = 0;
 
-	for (i = 0 ; *str != '\0' ; i++)
+	for (i = 0 ; str[i] != '\0' ; i++)
 	{
 		length++;
 	}
-	mid = length / 2;
-	for (lower = mid + 1 ; lower != '\0' ; lower++)
+	mid = (length - 1) / 2;
+	for (i = mid + 1 ; str[i] != '\0' ; i++)
 	{
-		_putchar(*str);
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
