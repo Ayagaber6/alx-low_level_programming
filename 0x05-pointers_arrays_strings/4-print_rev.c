@@ -9,6 +9,7 @@
 void print_rev/*print reverse striong*/(char *s)
 {
 	int i, length;
+
 	length = 0;
 
 	for (i = 0 ; s[i] != '\0' ; i++)
