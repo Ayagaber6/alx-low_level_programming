@@ -5,17 +5,19 @@
  * Description: print reverse string
  * @s: input character
  */
-void rev_string/*reverse string*/(char *s)
+void rev_string/*reverse string*/ (char *s)    
 {
-	int i, len;
+	int i, length;
 
-	for (len = 0 ; *s != '\0' ; s++)
-	{
-		len++;
-	}
+	length = 0;
 
-	for (i = len ; i >= 0 ; i--)
+	for (i = 0 ; s[i] != '\0' ; i++)
 	{
-		_putchar(*s);
+		length++;
 	}
+	for (i = (length - 1) ; i >= 0 ; i--)
+	{
+		_putchar(s[i]);
+	}
+	_putchar('\n');
 }
