@@ -11,9 +11,9 @@ void puts2/*print even numb*/(char *str)
 
 	for (i = 0 ; *str != '\0' ; i++)
 	{
-		if (*str % 2 == 0)
+		if (str[i] % 2 == 0)
 		{
-			_putchar(*str);
+			_putchar(str[i]);
 		}
 		else
 			continue;
