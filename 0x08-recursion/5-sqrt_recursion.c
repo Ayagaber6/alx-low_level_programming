@@ -7,17 +7,14 @@
  */
 int _sqrt_recursion/*square root*/(int n)
 {
-	if (n < 0)
-		return (-1);
-	else
-		return (squrt(n));
+	return (squrt(n, 1));
 }
 int squrt(int n, int i)
 {
-	if (i * i > n)
-		return (-1);
-	else if (i * i == n)
+	if (i * i == n)
 		return (i);
-	else
+	else if
 		return (squrt(n, i + 1));
+	else
+		return (-1);
 }
