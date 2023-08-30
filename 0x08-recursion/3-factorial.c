@@ -8,10 +8,10 @@
  */
 int factorial/*fact*/(int n)
 {
-	if (n == 0)
+	if (n ==i 0)
 	{
 		return (1);
 	}
 	else
-		return (n * fact(n - 1));
+		return (n * factorial(n - 1));
 }
