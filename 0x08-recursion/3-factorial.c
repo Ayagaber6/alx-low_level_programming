@@ -8,7 +8,7 @@
  */
 int factorial/*fact*/(int n)
 {
-	if (n ==i 0)
+	if (n == 0)
 	{
 		return (1);
 	}
