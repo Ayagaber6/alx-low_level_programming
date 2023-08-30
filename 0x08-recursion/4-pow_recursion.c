@@ -1,0 +1,16 @@
+#include "main.h"
+/**
+ * main- entry point
+ *
+ * Description: power of number
+ * @x: input value
+ * @y: input power
+ * Return: power value
+ */
+int _pow_recursion/*power of an number*/(int x, int y)
+{
+	if (y < 0)
+		return (-1);
+	else
+		return (_pow_recursion(x, y));
+}
