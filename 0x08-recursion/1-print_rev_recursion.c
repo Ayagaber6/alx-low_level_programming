@@ -10,8 +10,11 @@ void _print_rev_recursion/*print reverse string*/(char *s)
 	if (*s != '\0')
 	{
 		_print_rev_recursion(s + 1);
-		_putchar(*s);
 	}
 	else
-		_putchar(0);
+	{
+		_putchar(*s);
+		__print_rev_recursion(s - 1);
+		_putchar('\n');
+	}
 }
