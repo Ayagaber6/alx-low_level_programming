@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <math.h>
 int _sqrt(int n, int i);
 /**
  * main- entry point
