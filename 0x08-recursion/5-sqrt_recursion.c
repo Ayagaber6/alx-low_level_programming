@@ -9,6 +9,12 @@ int _sqrt_recursion/*square root*/(int n)
 {
 	return (sqrt(n, 1));
 }
+/**
+ * sqrt- return square root
+ * @n: input value
+ * @i: square root
+ * Return: square
+ */
 int sqrt(int n, int i)
 {
 	if (i * i == n)
