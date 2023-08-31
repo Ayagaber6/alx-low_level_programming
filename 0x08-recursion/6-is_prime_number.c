@@ -1,5 +1,5 @@
 #include "main.h"
-
+int check_num(int n, int i);
 /**
  * main- entry point
  *
