@@ -1,27 +1,27 @@
 #include "main.h"
+
+int _sqrt(int n, int i);
 /**
  * main- entry point
  * Description: return the natural square root of a num
  * @n: input value
  * Return: square root of num
  */
-int sqrt(int n, int i);
 int _sqrt_recursion/*square root*/(int n)
 {
-	return (sqrt(n, 1));
+	return (_sqrt(n, 1));
 }
 /**
- * sqrt- return square root
+ * _sqrt- return square root
  * @n: input value
  * @i: square root
  * Return: square
  */
-int sqrt(int n, int i)
+int _sqrt(int n, int i)
 {
+	if (i * i > n)
+		return (-1);
 	if (i * i == n)
 		return (i);
-	else if (i * i < n)
-		return (sqrt(n, i + 1));
-	else
-		return (-1);
+	return (sqrt(n, i + 1));
 }
