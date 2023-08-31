@@ -8,14 +8,16 @@
  */
 int is_prime_number/*check number*/(int n)
 {
-	return (check_num(n, 2));
+	return (check_num(n, 1));
 }
 int check_num(int n, int i)
 {
-	if (i >= n && n > 1)
-		return (1);
-	else if (n % i == 0 || n <= 1)
+	if (n <= 1)
 		return (0);
+	else if (n % i == 0 && i > 1)
+		return (0);
+	else if ((n / i) < i)
+		return (1);
 	else
 		return (check_num(n, i + 1));
 }
