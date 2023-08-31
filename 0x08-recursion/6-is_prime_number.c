@@ -18,6 +18,6 @@ int check_num(int n, int i)
 		return (0);
 	if ((n / i) < i)
 		return (1);
-	else
-		return (check_num(n, i + 1));
+
+	return (check_num(n, i + 1));
 }
