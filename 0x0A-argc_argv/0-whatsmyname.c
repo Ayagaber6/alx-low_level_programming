@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _myname- print its name
+ * main- print its name
  * @argc: input value
  * @argv: input array
  * Return: 0 success
