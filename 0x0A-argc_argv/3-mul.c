@@ -7,19 +7,19 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
+	int a;
+	int b;
 
-	for (i = 0 ; i <= argc ; i++)
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	if (argc == 3)
 	{
-		if (argc == 3)
-		{
-			printf("%d\n", argv[1] * argv[2]);
-		}
-		else
-		{
-			printf("Error");
-			return (1);
-		}
-		return (0);
+		printf("%d\n", a * b);
 	}
+	else
+	{
+		printf("Error");
+		return (1);
+	}
+	return (0);
 }
