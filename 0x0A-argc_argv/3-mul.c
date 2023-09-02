@@ -5,7 +5,7 @@
  * main- multiplies two numbers
  * @argc: input value
  * @argv: input array
- * Return 0 or 1
+ * Return: 0 or 1
  */
 int main(int argc, char *argv[])
 {
