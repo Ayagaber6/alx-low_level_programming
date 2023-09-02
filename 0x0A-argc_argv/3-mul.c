@@ -5,15 +5,18 @@
  * @argv: input array
  * Return 0 or 1
  */
-int main (int argc, int argv[])
+int main(int argc, int argv[])
 {
 	if (argc != 3)
 	{
-		printf ("Error");
+		printf("Error");
 		return (1);
 	}
-	int i = 0;
+	int i;
 
+	for (i = 0; i <= argc ; i++)
+	{
 	printf("%d\n", argv[1] * argv[2]);
+	}
 	return (0);
 }
