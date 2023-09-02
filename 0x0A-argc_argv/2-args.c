@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main- print all arguments
- * @i: counter
  * @argc: input value
  * @argv: input array
  * Return: 0 success
