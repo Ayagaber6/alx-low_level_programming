@@ -7,7 +7,7 @@
  * @argc: input value
  * @argv: input array
  *
- * Return: 0 or 1
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
@@ -26,6 +26,6 @@ int main(int argc, char *argv[])
 	else
 	{
 		printf("%d\n", a * b);
-		return (0);
 	}
+	return (0);
 }
